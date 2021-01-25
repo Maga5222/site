@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    overflow-x: hidden;}
+
+.active {
+    text-decoration: underline;}
+
+.container {
+    width:100%;
+    top:0;
+    left:0;
+    color:black;}
+
+.nav {
+    margin-left:0%;
+    width:20%;
+    height: 100%;
+    float:left;
+    background-color: #222222;
+    position: fixed;
+    left:0;
+    color:whitesmoke;}
+
+.nav .head {
+    border-bottom:1px solid black;
+    width:100%;
+    height:20%;
+    padding-top:5%;}
+
+.nav .head a {
+    text-decoration: none;
+    color:whitesmoke;}
+
+.nav .head a:hover {
+    text-decoration: underline;}
+
+.nav .head h1 {
+    width:100%;
+    text-align: center;
+    font-size:2em;}
+
+.content {
+    padding:0;
+    padding-left:45px;
+    float:left;
+    width:75%;
+    height: 100%;
+    margin-left: 20%;}
+
+.nav .body {
+    width:90%;
+    padding:5px;}
+
+.nav .body .a {
+    margin-bottom:5px;
+    width:90%;
+    text-align: left;
+    font-size:1.3em;}
+
+.nav .body .a a {
+    text-decoration: none;
+    color:whitesmoke;}
+
+
+.nav .body .a a:hover {
+    text-decoration: underline;
+    color:whitesmoke;}
+
+#open_nav{
+    top:0;
+    position: absolute;
+    float:left;
+    height: 100%;
+    width:30px;
+    writing-mode:vertical-lr;
+    transform: rotate(180deg);
+    text-align: left;
+    color:silver;
+    padding-left: 15px;
+    background-color: whitesmoke;
+    cursor:pointer;}
+
+#close_nav {
+    text-align: right;
+    padding:0 5% 0 0;
+    cursor:pointer;
+    font-size:1.3em;
+    color: whitesmoke;}
+
+.loading {
+    display: block;
+    position: fixed;
+    z-index: 5;
+    width:100%;
+    height: 100%;
+    background: lightgrey;
+    opacity: 0.7;
+    padding-top:300px;
+    padding-left: 40%;}
+
+
+  
+
+
+
+
+
+.banner{
+  width:150px; /* Ширина */
+  height:150px; /* Высота */
+  background:#ccffff; /* Цвет фона */
+  margin:0 auto; /* Выравнивание */
+  display:block; /* Делаем блоком */
+  text-align: center; /* текст по центру */
+  font:bold 32px Arial; /* Стиль текста */
+  border: 2px solid #666; /* Рамка вокруг */
+}
+ 
+.a {
+  display: block;
+  height: 60px;
+  padding: 9px 0 0;
+  width: 200px;
+  color: #660000;
+}
+
+}
+.banner:hover {
+  background: #66CCCC; /* Цвет фона при наведении */
+}
+a:hover {
+  color: #006600; /* Цвет текста при наведении */
+}
+
+
+
+
+
+
+hr {position: relative;
+    border: 0;
+    width: 1100px;
+    height: 40px;
+}
+
+ 
+hr:before,
+
+hr:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 30px;    
+    border: 5px solid red;
+    -moz-border-radius: 25px 25px 0 25px;
+         border-radius: 25px 25px 0 25px;
+    -webkit-transform: rotate(-45deg);
+       -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+         -o-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+}
+
+
+ 
+hr:after {
+    left: auto;
+    right: 0;
+    -moz-border-radius: 50px 50px 50px 0;
+         border-radius: 50px 50px 50px 0;
+    -webkit-transform:rotate(45deg);
+       -moz-transform:rotate(45deg);
+        -ms-transform:rotate(45deg);
+         -o-transform:rotate(45deg);
+            transform:rotate(45deg);}
